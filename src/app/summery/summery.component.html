@@ -1,0 +1,43 @@
+<div class="row">
+    
+    <div class="summeryContainer">
+        
+        <div class="col-md-offset-2 jumbtron whiteBg" style="padding:30px;">
+            
+               
+   
+        
+    <a routerLink='/receipes'>Back To Receipes</a>
+        
+   
+        
+          <h4>Your Order</h4>
+             <div class="row">
+             <div class="col-md-9">
+                {{receipe.name}}
+             </div>
+             <div class="col-md-3">
+                {{receipe.price}}
+             </div>
+            </div>
+            
+            <div class="row">
+            <button class="btn btn-primary" (click)="confirmOrder()">Confirm Order</button>
+                
+            </div>
+            
+            <div *ngIf="showText">
+                <h4>"Your {{receipe.name}}  will be delivered in 10 minutes"</h4>
+            </div>
+        
+        
+    </div>
+ 
+    
+    
+    </div>
+
+ 
+</div>
+
+

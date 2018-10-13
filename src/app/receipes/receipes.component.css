@@ -1,0 +1,8 @@
+.quickfilter > ul{
+    list-style-type: none;
+   
+} 
+
+.quickfilter > ul li a{
+  text-decoration: none;
+}
