@@ -9,7 +9,7 @@ import { Recipe } from './receipe.model';
   providedIn: 'root'
 })
 export class ReceipesListService {
- const receipesList : Recipe[] = [ {
+ receipesList : Recipe[] = [ {
    id:1,
    name: 'Burger',
    description: 'Burger Description Going here',
